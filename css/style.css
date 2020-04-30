@@ -1,0 +1,19 @@
+#main {
+    background-color: aquamarine;
+}
+
+#tag {
+    position: relative;
+}
+
+#tag h1 {
+    position: absolute;
+    margin-top: 5%;
+    padding: 0 2%;
+    text-align: center;
+}
+
+#tag img {
+    width: 100%;
+    margin-top: 40%;
+}
