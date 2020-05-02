@@ -18,7 +18,7 @@ body {
 
 #tagline h1 {
     text-align: center;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .info {
@@ -28,7 +28,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	align-content: flex-end;
-    height: 43vh;
+    height: 43.5vh;
     
 }
 
@@ -57,10 +57,19 @@ body {
 }
 
 #quote h5 {
-    font-size: 180%;
+    font-size: 150%;
     text-align: end;
 }
 
-#about {
+.about {
+    height: 93.5vh;
     
+}
+
+#about-info {
+    margin: 5% 0;
+}
+
+#about-info h1 {
+    padding: 50px 0;
 }
