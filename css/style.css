@@ -20,30 +20,24 @@ body {
     font-size: 200%;
 }
 
-.info {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: flex-end;
-    height: 52vh;
-    
-}
-
-#photo {
-    min-height: unset;
+.photo {
+    height: 40vh;
 }
 
 #photo img {
-    width: 60%;
-    height: auto;
+    width: 65%;
+    max-height: inherit;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.ceo {
+    height: 15vh;
+}
+
 #ceo {
     text-align: center;
+    padding: 2%;
 }
 
 #ceo h2 {
@@ -55,7 +49,7 @@ body {
 }
 
 .bottom {
-    height: 20vh;
+    height: 18vh;
 }
 
 #quote {
