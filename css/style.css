@@ -1,40 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 #main {
-    background-color: aquamarine;
+    background-color: rgb(39, 179, 132);
+    color: white;
+}
+
+.top {
+    height: 25vh;
 }
 
 #tagline {
-    position: relative;
+    padding: 1%;
+    margin: 5% 2% 0 2%;
 }
 
 #tagline h1 {
-    position: absolute;
-    margin-top: 5%;
-    padding: 0 2%;
     text-align: center;
-    font-size: x-large;
+    font-size: 250%;
 }
 
 .info {
     display: flex;
-	flex-direction: row-reverse;
+	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-end;
-    align-content: stretch;
-    margin-top: 3vh;
-    padding: 5% 2%;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-end;
+    height: 43vh;
+    
+}
+
+#photo {
+    min-height: unset;
 }
 
 #photo img {
-    width: 100%;
+    width: 60%;
     height: auto;
-    margin-top: 10vh;
-    float: right;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#ceo {
+    padding: 5px;
+    text-align: center;
+}
+
+.bottom {
+    height: 25vh;
+}
+
 #quote {
-    margin-top: 1vh;
-    padding: 2%;
+    padding: 4%;
+}
+
+#quote h5 {
+    font-size: 180%;
+    text-align: end;
+}
+
+#about {
+    
 }
