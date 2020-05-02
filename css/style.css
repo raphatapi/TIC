@@ -8,12 +8,11 @@ body {
 }
 
 .top {
-    height: 25vh;
+    height: 20vh;
 }
 
 #tagline {
     padding: 1%;
-    margin: 5% 2% 0 2%;
 }
 
 #tagline h1 {
@@ -25,10 +24,10 @@ body {
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	align-content: flex-end;
-    height: 43.5vh;
+    height: 52vh;
     
 }
 
@@ -44,16 +43,23 @@ body {
 }
 
 #ceo {
-    padding: 5px;
     text-align: center;
 }
 
+#ceo h2 {
+    font-size: x-large;
+}
+
+#ceo h4 {
+    font-size: larger;
+}
+
 .bottom {
-    height: 25vh;
+    height: 20vh;
 }
 
 #quote {
-    padding: 4%;
+    padding: 2%;
 }
 
 #quote h5 {
@@ -62,7 +68,7 @@ body {
 }
 
 .about {
-    height: 93.5vh;
+    height: 92vh;
     
 }
 
