@@ -17,7 +17,7 @@ body {
 
 #tagline h1 {
     text-align: center;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .photo {
@@ -25,7 +25,7 @@ body {
 }
 
 #photo img {
-    width: 65%;
+    width: 55%;
     max-height: inherit;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -42,11 +42,11 @@ body {
 }
 
 #ceo h2 {
-    font-size: x-large;
+    font-size: larger;
 }
 
 #ceo h4 {
-    font-size: larger;
+    font-size: large;
 }
 
 .bottom {
@@ -58,7 +58,7 @@ body {
 }
 
 #quote h5 {
-    font-size: 150%;
+    font-size: 130%;
     text-align: end;
 }
 
