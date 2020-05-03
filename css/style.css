@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #main {
@@ -53,9 +53,9 @@ body {
     text-align: end;
 }
 
-.about {
-    height: 92vh;
-    
+#about {
+    background-color: whitesmoke;
+    color: darkslategray;
 }
 
 #about-info {
@@ -66,19 +66,18 @@ body {
     padding: 50px 0;
 }
 
-.services {
-    height: 92vh;
-}
-
 #services-info {
     margin: 5% 0;
 }
 
-#services-info h1 {
-    padding: 50px 0;
+#services-info p {
+    padding: 20px 1px;
 }
 
-
+#services-info h2 {
+    text-align: center;
+    padding: 10px 1px;
+}
 
 #inquiry{
     background-color: #70c3be;
