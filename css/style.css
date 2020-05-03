@@ -5,12 +5,11 @@ body {
 #main {
     background-color: #70c3be;
     color: white;
-    height: 93vh;
 }
 
 #tagline {
     padding: 5px;
-    margin: 20px 1px;
+    margin: 20px 1px 0 1px;
 }
 
 #tagline h1 {
