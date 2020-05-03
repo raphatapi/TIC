@@ -2,6 +2,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
 #main {
     background-color: #70c3be;
     color: white;
