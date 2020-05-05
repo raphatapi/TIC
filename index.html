@@ -83,41 +83,33 @@
             </div>
             <div class="col-md-6">
               <h3 class="text-uppercase mt-3 font-weight-bold text-white">Send an inquiry</h3>
-              <form class="needs-validation" novalidate action="">
-                <div class="form-row">
+              <form id="contact-form" method="post" action="contact.php" role="form">
+                <div class="row">
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input type="text" class="form-control mt-2" placeholder="Name" required>
-                      <div class="valid-feedback">
-                        Looks good!
-                      </div>
-                      <div class="invalid-feedback">
-                        Please tell me your name.
-                      </div>
+                      <label for="form_name">Name *</label>
+                      <input id="form_name" type="text" name="name" class="form-control mt-2" placeholder="Name" data-error="Firstname is required." required>
+                      <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input type="email" class="form-control mt-2" placeholder="Email" required>
-                      <div class="valid-feedback">
-                        Looks good!
-                      </div>
-                      <div class="invalid-feedback">
-                        Please provide a valid email.
-                      </div>
+                      <label for="form_email">Email *</label>
+                      <input id="form_email" type="email" name="email" class="form-control mt-2" placeholder="Email" data-error="Valid email is required." required>
+                      <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input type="tel" class="form-control mt-2" placeholder="Phone">
+                      <label for="form_phone">Phone</label>
+                      <input id="form_phone" type="tel" name="phone" class="form-control mt-2" placeholder="Phone">
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
-                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" required></textarea>
-                      <div class="invalid-feedback">
-                        Let me know how I can help you.
-                      </div>
+                      <label for="form_message">Message *</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" data-error="Please, leave us a message." required></textarea>
+                      <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-12">
@@ -128,13 +120,13 @@
                           Agree to terms and conditions
                         </label>
                         <div class="invalid-feedback">
-                          No robots here! <i class="fas fa-robot"></i>
+                          <i class="fas fa-robot"></i> Humans only here!
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-12">
-                    <button class="btn btn-light" type="submit">Send</button>
+                    <input type="submit" class="btn btn-light btn-send" value="Send">
                   </div>
                 </div>
               </form>
@@ -161,25 +153,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/45350daaee.js" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
-    <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-      (function() {
-        'use strict';
-        window.addEventListener('load', function() {
-          // Fetch all the forms we want to apply custom Bootstrap validation styles to
-          var forms = document.getElementsByClassName('needs-validation');
-          // Loop over them and prevent submission
-          var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-              if (form.checkValidity() === false) {
-                event.preventDefault();
-                event.stopPropagation();
-              }
-              form.classList.add('was-validated');
-            }, false);
-          });
-        }, false);
-      })();
-      </script>
+    
 </body>
 </html>
