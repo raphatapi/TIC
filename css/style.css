@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden
 }
 
 .navbar-toggler {
@@ -23,6 +24,7 @@ body {
 #tagline h1 {
     text-align: center;
     font-size: 30px;
+    padding: 50px 0 10px 0;
 }
 
 #photo {
@@ -78,8 +80,8 @@ body {
     margin: 5% 0;
 }
 
-#services-info p {
-    padding: 20px 1px;
+#services-info h1 {
+    padding: 50px 0;
 }
 
 #services-info h2 {
@@ -87,10 +89,19 @@ body {
     padding: 10px 1px;
 }
 
+#services-info p {
+    padding: 20px 1px;
+}
+
 #inquiry{
     background-color: #70c3be;
     letter-spacing: 2px;
 }
+
+#inquiry h1 {
+    padding: 50px 0 10px 0;
+}
+
 #inquiry a{
     color: #fff;
     text-decoration: none;
