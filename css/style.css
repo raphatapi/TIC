@@ -65,15 +65,15 @@ body {
 #about {
     background-color: whitesmoke;
     color: darkslategray;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 #about-info {
     margin: 5% 0;
 }
 
-#about-info h1 {
-    padding: 50px 0;
+#about-info h1, p{
+    padding: 50px 10px;
 }
 
 #services-info {
