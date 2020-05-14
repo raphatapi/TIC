@@ -10,6 +10,14 @@ body {
     outline: none;
 }
 
+section {
+    height: 100vh;
+}
+
+#mail {
+    /* margin-top: 56px; */
+}
+
 .main {
     background-color: #70c3be;
     color: white;
@@ -17,13 +25,13 @@ body {
 
 #tagline {
     padding: 5px;
-    margin: 20px 1px 0 1px;
+    margin: 0 1px;
 }
 
 #tagline h1 {
     text-align: center;
     font-size: 30px;
-    padding: 50px 0 10px 0;
+    padding: 5px 0;
 }
 
 #photo {
