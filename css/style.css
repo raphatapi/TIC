@@ -10,7 +10,7 @@ body {
     outline: none;
 }
 
-#main {
+.main {
     background-color: #70c3be;
     color: white;
 }
