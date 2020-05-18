@@ -16,30 +16,37 @@ body {
 
 section {
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 #main {
-    /* margin-top: 56px; */
-}
-
-.main {
     background-color: #70c3be;
     color: white;
 }
 
+.main {
+    align-items: center;
+    display: flex;
+    /* height: 20%; */
+    justify-content: center;
+}
+
 #tagline {
-    padding: 5px;
-    margin: 0 1px;
+    padding: 15px;
+    margin: 10px auto;
 }
 
 #tagline h1 {
     text-align: center;
     font-size: 30px;
-    padding: 5px 0;
+    /* padding: 5px 0; */
 }
 
 #photo {
-    margin: 20px 1px 10px 1px;
+    padding: 15px;
+    margin: 20px auto;
 }
 
 #photo img {
@@ -51,8 +58,8 @@ section {
 
 #ceo {
     text-align: center;
-    margin: 0 1px 20px 1px;
-    padding: 5px;
+    margin: 20px auto;
+    padding: 15px;
 }
 
 #ceo h2 {
@@ -65,8 +72,8 @@ section {
 }
 
 #quote {
-    margin: 20px 1px;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 15px;
 }
 
 #quote h5 {
