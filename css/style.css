@@ -16,7 +16,6 @@ body {
 
 section {
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
     margin: 0 auto;
     max-width: 100%;
 }
@@ -28,8 +27,6 @@ section {
 
 .main {
     align-items: center;
-    display: flex;
-    /* height: 20%; */
     justify-content: center;
 }
 
