@@ -92,19 +92,28 @@ section {
 }
 
 #about-info {
-    margin: 5% 0;
+    padding: 15px;
+    margin: 10px auto;
 }
 
-#about-info h1, p{
-    padding: 50px 10px;
+#about-info h1{
+    margin: 20px auto;
+    padding: 5px;
+}
+
+#about-info p{
+    margin: 20px auto;
+    padding: 15px;
 }
 
 #services-info {
-    margin: 5% 0;
+    padding: 15px;
+    margin: 10px auto;
 }
 
 #services-info h1 {
-    padding: 50px 0;
+    margin: 20px auto;
+    padding: 5px;
 }
 
 #services-info h2 {
@@ -122,7 +131,8 @@ section {
 }
 
 #inquiry h1 {
-    padding: 50px 0 10px 0;
+    margin: 20px auto;
+    padding: 5px;
 }
 
 #inquiry a{
