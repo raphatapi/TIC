@@ -6,6 +6,56 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/CEO_DougFlaig.webp');
+    padding: 2%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+
+.title {
+    margin: 4% auto;
+}
+
+.title h1 {
+    /* font-family: 'Staatliches', cursive; */
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 3px 4px rgb(39, 39, 39);
+    letter-spacing: .6em;
+    font-size: 60px;
+}
+
+.ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* padding-top: 500px; */
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.ct-btn-scroll i {
+    color: white;
+    animation-duration: 1.8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+#sticky-phantom {
+    visibility: hidden;
+    /* display: none; */
+}
+
 .navbar-toggler {
     border: 0;
 }
