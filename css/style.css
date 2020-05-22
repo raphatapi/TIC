@@ -7,7 +7,7 @@ body {
 }
 
 .cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/CEO_DougFlaig.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/lion.jpg');
     padding: 2%;
     min-height: 100vh;
     background-size: cover;
@@ -17,17 +17,28 @@ body {
 }
 
 .title {
-    margin: 4% auto;
+    margin: 1% auto;
 }
 
 .title h1 {
     /* font-family: 'Staatliches', cursive; */
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 250px;
     text-shadow: 2px 3px 4px rgb(39, 39, 39);
     letter-spacing: .3em;
     line-height: 1.5;
     font-size: 40px;
+    text-align: end;
+}
+
+.title h2 {
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 3px 4px rgb(39, 39, 39);
+    letter-spacing: .3em;
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: end;
 }
 
 .ct-btn-scroll {
