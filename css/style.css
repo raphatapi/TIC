@@ -91,8 +91,8 @@ section {
 }
 
 #main {
-    background-color: #70c3be;
-    color: white;
+    /* background-color: #70c3be; */
+    color: rgb(31, 31, 31);
 }
 
 .main {
@@ -117,7 +117,7 @@ section {
 }
 
 #photo img {
-    height: 250px;
+    height: 350px;
     width: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
