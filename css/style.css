@@ -155,8 +155,8 @@ section {
 }
 
 #about-info {
-    padding: 15px;
-    margin: 10px auto;
+    padding: 10px;
+    margin: 5px auto;
 }
 
 #about-info h1{
@@ -167,11 +167,12 @@ section {
 #about-info p{
     margin: 20px auto;
     padding: 15px;
+    font-size: larger;
 }
 
 #services-info {
-    padding: 15px;
-    margin: 10px auto;
+    padding: 10px;
+    margin: 5px auto;
 }
 
 #services-info h1 {
@@ -181,11 +182,16 @@ section {
 
 #services-info h2 {
     text-align: center;
-    padding: 10px 1px;
+    padding: 5px 1px;
 }
 
 #services-info p {
-    padding: 20px 1px;
+    padding: 10px 2px;
+    font-size: larger;
+}
+
+#services-info li {
+    font-size: large;
 }
 
 #inquiry{
