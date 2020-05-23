@@ -24,7 +24,7 @@ $(document).ready(function(){
     });
 
     $(".cover").paroller({ factor: 0.5, factorXs: 0.2, factorSm: 0.3});
-    $('.paroller').paroller();
+    $(".title").paroller();
     
     AOS.init();
   });
