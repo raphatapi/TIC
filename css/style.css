@@ -102,18 +102,19 @@ section {
 
 #tagline {
     padding: 10px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 #tagline h1 {
     text-align: center;
     font-size: 30px;
-    /* padding: 5px 0; */
+    padding: 15px;
+    margin: 20px auto;
 }
 
 #photo {
     padding: 15px;
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
 }
 
 #photo img {
@@ -125,7 +126,7 @@ section {
 
 #ceo {
     text-align: center;
-    margin: 5px auto;
+    margin: 0 auto 5px auto;
     padding: 10px;
 }
 
@@ -161,7 +162,7 @@ section {
 
 #about-info h1{
     margin: 20px auto;
-    padding: 5px;
+    padding: 15px;
 }
 
 #about-info p{
@@ -177,17 +178,23 @@ section {
 
 #services-info h1 {
     margin: 20px auto;
-    padding: 5px;
-}
-
-#services-info h2 {
-    text-align: center;
-    padding: 5px 1px;
+    padding: 15px;
 }
 
 #services-info p {
-    padding: 10px 2px;
+    margin: 20px auto;
+    padding: 15px;
     font-size: larger;
+}
+
+.key-services {
+    margin-bottom: 15px;
+}
+
+#services-info h2 {
+    text-align: start;
+    padding: 15px;
+    margin: 20px auto;
 }
 
 #inquiry{
