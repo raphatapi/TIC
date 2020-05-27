@@ -1,6 +1,3 @@
-html{
-    /* scroll-behavior: smooth; */
-}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -109,12 +106,12 @@ section {
     text-align: center;
     font-size: 30px;
     padding: 15px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 #photo {
     padding: 15px;
-    margin: 10px auto 0 auto;
+    margin: 0 auto;
 }
 
 #photo img {
