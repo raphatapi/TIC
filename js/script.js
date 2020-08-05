@@ -1,5 +1,11 @@
 $(document).ready(function(){
-    
+  
+  $('.carousel').carousel('cycle');
+
+
+
+
+
     $('.nav-link').click(function(){    
       var divId = $(this).attr('href');
        $('html, body').animate({

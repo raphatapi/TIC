@@ -126,26 +126,31 @@ section {
     padding: 0 40px;
 }
 
+.button {
+    margin-top: 20px;
+}
+
+.about {
+    background: linear-gradient(rgba(255, 192, 0, 0.8), rgba(255, 192, 0, 0.8)), url('../images/meeting_wallpaper.jpg');
+    padding: 1%;
+    min-height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+
 #about {
-    background-color: whitesmoke;
     color: darkslategray;
-    overflow-x: hidden;
 }
 
-#about-info {
-    padding: 10px;
-    margin: 5px auto;
-}
-
-#about-info h1{
+.carousel {
     margin: 20px auto;
-    padding: 15px;
 }
 
-#about-info p{
-    margin: 20px auto;
-    padding: 15px;
-    font-size: larger;
+.carousel-inner img {
+    margin: 0 auto;
+    height: 100px;
 }
 
 #services-info {
