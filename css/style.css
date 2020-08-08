@@ -177,31 +177,7 @@ section {
 
 
 
-#services-info {
-    padding: 10px;
-    margin: 5px auto;
-}
 
-#services-info h1 {
-    margin: 20px auto;
-    padding: 15px;
-}
-
-#services-info p {
-    margin: 20px auto;
-    padding: 15px;
-    font-size: larger;
-}
-
-.key-services {
-    margin-bottom: 15px;
-}
-
-#services-info h2 {
-    text-align: start;
-    padding: 15px;
-    margin: 20px auto;
-}
 
 #contact {
     background-color: whitesmoke;
