@@ -157,6 +157,26 @@ section {
     height: 100px;
 }
 
+.services {
+    background: linear-gradient(rgba(104, 147, 187, 0.8), rgba(104, 147, 187, 0.8)), url('../images/team.jpg');
+    padding: 1%;
+    min-height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+
+.list {
+    text-align: start;
+}
+
+.list-items {
+    text-align: start;
+}
+
+
+
 #services-info {
     padding: 10px;
     margin: 5px auto;
