@@ -113,7 +113,7 @@ section {
 #ceo {
     text-align: center;
     margin-top: 15px;
-    padding: 20px 10px;
+    padding: 20px auto;
 }
 
 #ceo h3 {
@@ -190,7 +190,19 @@ section {
     z-index: -1;
 }
 
+.road {
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/road.png');
+    padding: 1%;
+    min-height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
 
+#ceo .list, h5 {
+    font-weight: bold;
+}
 
 
 
