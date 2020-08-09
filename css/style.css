@@ -134,7 +134,7 @@ section {
     margin: 20px 0;
 }
 
-.about {
+.portfolio {
     background: linear-gradient(rgba(255, 192, 0, 0.8), rgba(255, 192, 0, 0.8)), url('../images/meeting_wallpaper.jpg');
     padding: 1%;
     min-height: 45vh;
@@ -144,7 +144,7 @@ section {
     z-index: -1;
 }
 
-#about {
+#portfolio {
     color: darkslategray;
 }
 
@@ -204,6 +204,21 @@ section {
     font-weight: bold;
 }
 
+.about {
+    background: linear-gradient(rgba(68, 114, 196, 0.8), rgba(68, 114, 196, 0.8)), url('../images/office_wallpaper.jpg');
+    padding: 1%;
+    min-height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+    color: whitesmoke;
+}
+
+.button img {
+    height: 200px;
+    float: right;
+}
 
 
 #contact {
