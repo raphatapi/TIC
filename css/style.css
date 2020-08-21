@@ -1,7 +1,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: larger;
 }
 
 .cover {
@@ -117,7 +116,7 @@ section {
     padding: 20px auto;
 }
 
-#ceo h3 {
+#ceo h1 {
     padding: 10px 0;
 }
 
@@ -222,7 +221,6 @@ section {
 
 .list-items {
     text-align: start;
-    font-size: large;
 }
 
 #button {
