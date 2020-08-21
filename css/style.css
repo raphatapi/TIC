@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: larger;
 }
 
 .cover {
@@ -148,14 +149,62 @@ section {
     color: darkslategray;
 }
 
-.carousel {
-    margin: 20px auto;
-}
-
-.carousel-inner img {
-    margin: 0 auto;
+/*carousel*/
+@-webkit-keyframes scroll {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(calc(-250px * 7));
+              transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(calc(-250px * 7));
+              transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
     height: 100px;
-}
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .slider::before, .slider::after {
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    padding: 0 1%;
+  }
+
 
 .services {
     background: linear-gradient(rgba(104, 147, 187, 0.8), rgba(104, 147, 187, 0.8)), url('../images/team.jpg');
