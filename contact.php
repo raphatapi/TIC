@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'True Impact Consulting contact form <tapiocamail@gmail.com>';
+$from = 'True Impact Consulting contact form <doug@trueimpactconsulting.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'True Impact Consulting contact form <tapiocamail@gmail.com>';
+$sendTo = 'True Impact Consulting contact form <doug@trueimpactconsulting.com>';
 
 // subject of the email
 $subject = 'New message from TIC contact form';
