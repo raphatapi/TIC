@@ -2,10 +2,10 @@ $(document).ready(function(){
   
   $('.carousel').carousel('cycle');
 
-  var btn = $('#button');
+  var btn = $('#up');
 
   $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
+    if ($(window).scrollTop() > 200) {
       btn.addClass('show');
     } else {
       btn.removeClass('show');
