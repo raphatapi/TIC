@@ -14,10 +14,16 @@ $(document).ready(function(){
 
   btn.on('click', function(e) {
     e.preventDefault();
-    $('html, body').animate({scrollTop:0}, '900');
+    $('html, body').animate({scrollTop:0}, 900);
   });
 
-
+  $('.btn').on('click', function(e) {
+    e.preventDefault();
+    var divId = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(divId).offset().top - $("nav").outerHeight(true) + 1
+    }, 1000);
+  });
 
     $('.nav-link').click(function(){    
       var divId = $(this).attr('href');
